@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The iron throne race</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta property="og:title" content="הצילו את ביבי - המשחק שמשגע את הרשת">
+    <meta property="og:description" content="עזרו לביבי להגיע בבטחה אל משרד ראש הממשלה.">
+    <meta property="og:image" content="images/fb.jpg">
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="scripts/Data.js"></script>
+
+</head>
+
+<body onload="loadFromLocalStorage()">
+
+    <div id="player"></div>
+    <img id="destination" src="images/game-of-thrones-iron-throne-00.jpg" />
+    <p id="level_info"></p>
+    <p id="Score_info"></p>
+    <p id="Timer_info"></p>
+
+    <div id="welcome">
+        <h1><span>ע</span><span>ז</span><span>ר</span><span>ו</span><span>&nbsp;</span><span>ל</span><span>ח</span><span>א</span><span>ל</span><span>י</span><span>ס</span><span>י</span>&nbsp;<span>
+            </span></h1>
+        <h1><span>ל</span><span>ה</span><span>ג</span><span>י</span><span>ע</span><span>&nbsp;</span><span>א</span><span>ל</span><span>&nbsp;</span><span>כ</span><span>ס</span><span>&nbsp;</span>
+        </h1>
+        <h1><span>ה</span><span>מ</span><span>ל</span><span>כ</span><span>ו</span><span>ת</span></h1>
+        <div>
+            <p class="show-on-desktop">
+                השתמשו במקשי החיצים בשביל להוביל את חאליסי
+                <br>
+                .בבטחה אל כס המלכות ולהימנע מהאויבים שבדרך
+            </p>
+            <button class="btn">
+                <span class="show-on-desktop">- לחצו על כל מקש כדי להתחיל -</span>
+            </button>
+        </div>
+    </div>
+    <div id="enemy-img"></div>
+    <div id="game_bg">
+        <div></div>
+    </div>
+    <div id="game_board"></div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
